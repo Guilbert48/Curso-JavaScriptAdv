@@ -18,9 +18,7 @@ function executar () {
         })
 
         resultado.innerHTML += `<h1>${nome.value} ${sobrenome.value} ${peso.value} ${altura.value}<h1> `
-        
-
-        
+           
     }
 
     form.addEventListener('submit', recebeEventoForm)
